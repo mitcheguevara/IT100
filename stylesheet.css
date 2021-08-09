@@ -1,9 +1,36 @@
+header {
+    /*Adding random colors so I can see the bg, plz feel free to change*/
+    background: plum;
+    width: 100%;
+}
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     color: royalblue;
+    text-align: center;
 }
 h1{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: red;
+}
+h2{
+    text-align: center;
+}
+header h1, header ul {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.person {
+    background: plum;
+    margin: 75px 10px;
+    height: 300px;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
