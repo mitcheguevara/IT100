@@ -3,6 +3,15 @@ header {
     background: plum;
     width: 100%;
 }
+#Dans_bio-image {
+  max-height: 400px;
+  width: 200px;
+  clip-path: circle();
+  float: left;
+  shape-outside: circle(50%);
+  margin-right: 0.5rem;
+}
+
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
